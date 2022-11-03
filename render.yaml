@@ -2,7 +2,7 @@ services:
   - type: pserv
     name: clickhouse
     env: docker
-    plan: standard
+    plan: free
     autoDeploy: false
     disk:
       name: data
