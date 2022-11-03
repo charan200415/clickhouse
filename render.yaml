@@ -4,7 +4,3 @@ services:
     env: docker
     plan: free
     autoDeploy: false
-    disk:
-      name: data
-      mountPath: /var/lib/clickhouse
-      sizeGB: 10
